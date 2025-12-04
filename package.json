@@ -1,0 +1,25 @@
+{
+  "name": "idcc_dashboard-360-backend",
+  "version": "1.0.0",
+  "main": "auth-service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "better-sqlite3": "^12.5.0",
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "ldapjs": "^3.0.7",
+    "mssql": "^12.2.0",
+    "nodemailer": "^7.0.11",
+    "snowflake-sdk": "^2.3.1",
+    "ws": "^8.18.3"
+  }
+}
+
+
+  
