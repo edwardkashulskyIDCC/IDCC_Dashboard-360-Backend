@@ -1,0 +1,81 @@
+# RSA Private Key - DO NOT COMMIT
+rsa_key_idcc.p8
+
+# Node modules
+node_modules/
+# Note: package.json and package-lock.json should be committed
+
+# Log files
+*.log
+server-debug.log
+zoom-actions.log
+snowflake.log
+npm-debug.log*
+yarn-debug.log*
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+scheduled-emails.db*
+
+# Environment and config files with sensitive data
+.env
+.env.local
+.env.*.local
+google-calendar-tokens.json
+extension-api-keys.json
+
+# Audit logs (may contain sensitive information)
+audit-logs/
+audit-*.jsonl
+
+# Viewed clients data
+viewed_clients/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Duplicate/copy files
+* copy.js
+* copy.*
+*-copy.*
+
+# Test and debug files
+test-*.js
+debug-*.js
+*-test.js
+*-debug.js
+mock-*.json
+
+# Scripts that may contain secrets (temporary cleanup scripts)
+fix-secrets-history.ps1
+remove-secrets-from-history.ps1
+remove-secrets-from-history.sh
+simple-fix-secrets.ps1
+
+# Build and dist files
+dist/
+build/
+*.min.js
+*.bundle.js
+
+
+
